@@ -84,6 +84,9 @@ In this section, you convert trained machine learning model files and into an Az
 
 By completing all the steps in the notebook, you trained an anomaly detection model, built it as a Docker container image, and pushed that image to Azure Container Registry. Then, you tested the model and finally deployed it to your IoT Edge device. 
 
+## Create a custom ML container for IoT Edge
+In this section 
+
 ## View container repository
 
 Check that your container image was successfully created and stored in the Azure container registry associated with your machine learning environment. The notebook that you used in the previous section automatically provided the container image and the registry credentials to your IoT Edge device, but you should know where they're stored so that you can find the information yourself later. 
