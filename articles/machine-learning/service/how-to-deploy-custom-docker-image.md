@@ -178,9 +178,13 @@ Microsoft provides several docker images on a publicly accessible repository, wh
 | Image | Description |
 | ----- | ----- |
 | `mcr.microsoft.com/azureml/o16n-sample-user-base/ubuntu-miniconda` | Basic image for Azure Machine Learning service |
-| `mcr.microsoft.com/azureml/onnxruntime:v0.4.0` | Contains the ONNX runtime. |
-| `mcr.microsoft.com/azureml/onnxruntime:v0.4.0-cuda10.0-cudnn7` | Contains the ONNX runtime and CUDA components. |
-| `mcr.microsoft.com/azureml/onnxruntime:v0.4.0-tensorrt19.03` | Contains ONNX runtime and TensorRT. |
+| `mcr.microsoft.com/azureml/onnxruntime:latest` | Contains the ONNX runtime. |
+| `mcr.microsoft.com/azureml/onnxruntime:latest-cuda` | Contains the ONNX runtime and CUDA components. |
+| `mcr.microsoft.com/azureml/onnxruntime:latest-tensorrt` | Contains ONNX runtime and TensorRT. |
+| `mcr.microsoft.com/azureml/onnxruntime:latest-openvino-myriad` | Contains ONNX runtime and OpenVINO for Myriad-X USB Stick. |
+| `mcr.microsoft.com/azureml/onnxruntime:latest-openvino-vadm` | Contains ONNX runtime and OpenVINO for 8 node Myriad-X PCIe card. |
+
+Additional details about the ONNX Runtime base images can be found [here](https://github.com/microsoft/onnxruntime/tree/master/dockerfiles)
 
 > [!TIP]
 > Since these images are publicly available, you do not need to provide an address, username or password when using them.
